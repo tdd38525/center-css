@@ -1,0 +1,70 @@
+/* افقی */
+/* Horizontal */
+/* note you must give width to Horizontal */
+.Horizontal {
+          display: block;
+          /* عرض دلخواه */
+          /* desired width */
+          /* width: 200px; */
+          margin-left: auto;
+          margin-right: auto;
+}
+/* اگر میحواهید یک شی افقی در عنر پدرش وسط بیاید  */
+/* کافیست کلاس زیر را به پدر او بدهیم */
+/* و کلاس دوم را به ان المنت بدهیم */
+/* If you want a horizontal object to be in the middle of its parent */
+/* just give the following class to his father */
+/* and give the second class to this element */
+.Horizontal-dad {
+          text-align: center;
+}
+.Horizontal-child {
+          display: inline-block;
+}
+
+/* عمودی */
+/* اگر میخواهید در عمر پدر وسط بیاید کلاس اول را به عنر پدر بدهید */
+/* و اگر میخواهید فقط پر بدنه وسط باشد کلاس دوم به تهایی کافیست */
+/* نکته باید به vartial-child ارتفاع بدهید */
+/* vertical */
+/* If you want a vertical object to be in the middle of its parent */
+/* just give the following class to his father */
+/* and give the second class to this element */
+/* note you must give height to vartial-child */
+.vertical-dad {
+          position: relative;
+}
+.vertical-child {
+          display: block;
+          position: absolute;
+          /* ارتفاع دلخواه */
+          /* desired height */
+          /* height: 200px; */
+          top: 0%;
+          bottom: 0%;
+          margin-top: auto;
+          margin-bottom: auto;
+}
+
+/* افقی عمودی */
+/* اگر میخواهید در عنصر پدر وسط بیاید کلاس اول را به عنر پدر بدهید */
+/* و اگر میخواهید فقط در بدنه وسط باشد کلاس دوم به تهایی کافیست */
+/* horizontal Vertical */
+/* if you want it to appear in the middle of the father element, give the first class to the name father */
+/* and if you want to be only in the middle, the second class is enough */
+.Horizontal-and-vertical-dad {
+          position: relative;
+}
+.Horizontal-and-vertical-child {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+/* ساخت شده توسط  محمد طاها*/
+/* https://github.com/tdd38525 */
+/* تمام اطلاعات محفوظ است و کپی بدون ذکر منبع پیگرد قانونی دارد */
+/* made by Mohammad Taha*/
+/* https://github.com/tdd38525 */
+/* All information is reserved and copying without mentioning the source will be prosecuted */

@@ -1,0 +1,18 @@
+This CSS code is used to style your web page editor. With this code, you can arrange your elements horizontally and vertically on the page.
+
+Code Explanation:
+
+1. Horizontal Section:
+   - The class `.Horizontal` is used for elements that you want to align in a horizontal line. You can set the width of these elements using the `width` property.
+   - The class `.Horizontal-dad` is used for the parent element where you want the inner elements to be centered.
+   - The class `.Horizontal-child` is used for the inner elements that you want to align in a horizontal line.
+
+2. Vertical Section:
+   - The class `.vertical-dad` is used for the parent element where you want the inner elements to be vertically centered.
+   - The class `.vertical-child` is used for the inner elements that you want to be vertically centered. You can set the height of these elements using the `height` property.
+
+3. Horizontal and Vertical Section:
+   - The class `.Horizontal-and-vertical-dad` is used for the parent element where you want the inner elements to be centered both horizontally and vertically.
+   - The class `.Horizontal-and-vertical-child` is used for the inner elements that you want to be centered both horizontally and vertically.
+
+By using these codes, you can arrange your elements horizontally and vertically on the page and center them. I hope these explanations are helpful to you.
